@@ -23,7 +23,7 @@ Basé sur « Intelligent Spectral Compressor » de chmaha, lui-même un portage 
 1. **Installer ReaPack** : [reapack.com](https://reapack.com), si ce n'est pas déjà fait.
 2. Dans Reaper : *Extensions → ReaPack → Import repositories…* puis coller l'adresse :
 
-   `https://raw.githubusercontent.com/VOTRE-COMPTE/heaj-voice-spectral/main/index.xml`
+   `https://raw.githubusercontent.com/nicolasdebois-pixel/heaj-voice-spectral/main/index.xml`
 
 3. *Extensions → ReaPack → Synchronize packages*.
 4. *Extensions → ReaPack → Browse packages…*, chercher « HEAJ », clic droit sur **heaj_voice_spectral** → *Install*, puis valider.
@@ -100,7 +100,7 @@ Le bouton en haut à droite change de vue : *Simple → Easy → Advanced*.
 ## Pour l'enseignant : publier le dépôt
 
 1. Créer un dépôt GitHub **public** (par exemple `heaj-voice-spectral`) et y pousser le contenu de ce dossier.
-2. Générer l'index : `python3 build_index.py VOTRE-COMPTE heaj-voice-spectral main`, puis commit + push de `index.xml`.
+2. Générer l'index : `python3 build_index.py nicolasdebois-pixel heaj-voice-spectral main`, puis commit + push de `index.xml`.
 3. Donner aux étudiants l'adresse de `index.xml` (étape 2 ci-dessus, avec votre compte).
 4. À chaque mise à jour : augmenter `version:` dans l'en-tête de l'effet, relancer `build_index.py`, commit + push.
 

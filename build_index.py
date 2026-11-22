@@ -18,7 +18,7 @@ now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"
 
 PACKAGES = [
     ("Effects/HEAJ/heaj_voice_spectral", "effect",
-     "HEAJ Voice Spectral : compression spectrale + déesseur, deux boutons (effet JS)"),
+     "HEAJ Voice Spectral : compression spectrale + déesseur, trois curseurs et analyse automatique (effet JS)"),
 ]
 
 def header(text, key):
