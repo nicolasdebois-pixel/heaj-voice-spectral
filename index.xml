@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="HEAJ Voice Spectral">
   <category name="HEAJ">
-    <reapack name="heaj_voice_spectral" type="effect" desc="HEAJ Voice Spectral : compression spectrale + déesseur, deux boutons (effet JS)">
-      <version name="0.5.1" author="chmaha (Intelligent Spectral Compressor), modified for HEAJ" time="2026-11-22T13:31:52Z">
-        <source>https://github.com/VOTRE-COMPTE/heaj-voice-spectral/raw/main/Effects/HEAJ/heaj_voice_spectral</source>
+    <reapack name="heaj_voice_spectral" type="effect" desc="HEAJ Voice Spectral : compression spectrale + déesseur, trois curseurs et analyse automatique (effet JS)">
+      <version name="0.5.1" author="chmaha (Intelligent Spectral Compressor), modified for HEAJ" time="2026-11-22T13:46:09Z">
+        <source>https://github.com/nicolasdebois-pixel/heaj-voice-spectral/raw/main/Effects/HEAJ/heaj_voice_spectral</source>
       </version>
     </reapack>
   </category>
